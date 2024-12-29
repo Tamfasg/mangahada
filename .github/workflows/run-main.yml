@@ -22,5 +22,5 @@ jobs:
         run: npm install  # Install any dependencies if you have a package.json
 
       - name: Run main.js
-        run: npm run dev  # Run your main.js file
+        run: node main.js  # Run your main.js file
 
